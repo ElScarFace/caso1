@@ -14,7 +14,7 @@ float cantidad=sc.nextFloat();
 float importe=precio*cantidad;
 float igv=(float)(importe*0.18);
 float desc=(float)(importe*0.03);
-float total= importe+desc+igv;
+float total= importe-desc+igv;
 
 System.out.println("el importe es: "+importe);
 System.out.println("el igv es: "+igv);
